@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.7.2" client="administrator" method="upgrade">
+    <name>Tab Slideout</name>
+    <author>Andrzej Bolewski</author>
+	<authorEmail>biuro@solmedia.pl</authorEmail>
+	<authorUrl>www.solmedia.pl</authorUrl>
+	<creationDate>czerwiec 2017</creationDate>
+	<copyright>OpenSource</copyright>
+    <version>1.0.0</version>
+    <description>Tab Slideout &copy;Solmedia.pl 2017. For free use. Enjoy!\n To put some content, put any module in "slideout" position</description>
+	
+	<updateservers>
+		<server type="extension" name="slideout" priority="1">http://www.solmedia.pl/slideout_update.xml</server>
+	</updateservers>
+    <files>
+        <filename>mod_slideout.xml</filename>
+        <filename module="mod_slideout">mod_slideout.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<folder>js</folder>
+		<folder>css</folder>
+    </files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="pozycja" type="list" default="" label="Z której strony?" description="">
+				  <option value="left">left</option>
+				  <option value="right">right</option>
+				</field>
+			</fieldset>
+		
+				
+		</fields>
+	</config>
+</extension>
