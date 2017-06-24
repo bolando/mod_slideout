@@ -7,7 +7,7 @@
 	<creationDate>czerwiec 2017</creationDate>
 	<copyright>OpenSource</copyright>
     <version>1.0.0</version>
-    <description>Tab Slideout &copy;Solmedia.pl 2017. For free use. Enjoy!\n To put some content, put any module in "slideout" position</description>
+    <description>Tab Slideout </description>
 	
 	<updateservers>
 		<server type="extension" name="slideout" priority="1">http://www.solmedia.pl/slideout_update.xml</server>
