@@ -3,4 +3,5 @@
 	width:250px;
 	background:#f2f2f2;
 	border:#29216d 2px solid;
+	z-index:99;
 }

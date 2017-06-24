@@ -20,6 +20,7 @@
         <filename>tmpl/index.html</filename>
 		<folder>js</folder>
 		<folder>css</folder>
+		<folder>images</folder>
     </files>
     <config>
 		<fields name="params">
@@ -28,6 +29,13 @@
 				  <option value="left">left</option>
 				  <option value="right">right</option>
 				</field>
+				<field name="odleglosc" type="text"  default="200" label="Odległość od góry (podaj tylko liczbę)" description="" />
+				<field name="tresc" type="editor" width="400" filter="safehtml" default="" label="Tekst do wyświetlania" description="" />
+				<field name="obrazek" type="radio" width="400" filter="safehtml" default="" label="Obrazek domyślny czy własny" description="" class="btn-group" >
+					<option value="default">domyślny</option>
+				  <option value="custom">własny</option>
+				</field>
+				<field name="custom-image" type="media"  default="" label="Własna grafika" description="Wybierz z serwera lub wgraj nową" />
 			</fieldset>
 		
 				
