@@ -14,7 +14,6 @@ if ($params->get('obrazek') == 'custom') {
 	$height = '122';
 	$width = '40';
 	}
-getimagesize 
 ?>
 
 <script>
