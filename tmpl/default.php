@@ -7,8 +7,8 @@ $doc->addScript('modules/mod_slideout/js/jquery.tabSlideOut.v1.3.js');
 if ($params->get('obrazek') == 'custom') {
 	$obrazek = $params->get('custom-image');
 	$wymiary = getimagesize($obrazek);
-	$height = $wymiary[0];
-	$width = $wymiary[1];
+	$height = $wymiary[1];
+	$width = $wymiary[0];
 } else {
 	$obrazek = 'modules/mod_slideout/images/contact_tab.gif';
 	$height = '122';
