@@ -20,7 +20,7 @@ if ($params->get('obrazek') == 'custom') {
 	jQuery(function(){
 		jQuery('.slideout').tabSlideOut({
 		tabHandle:'.handle',  //class of the element that will be your tab
-		pathToTabImage:<?php echo '\'' .$obrazek . '\''; ?>,//path to the image for the tab (optionaly can be set using css)
+		pathToTabImage:<?php echo '\'/' .$obrazek . '\''; ?>,//path to the image for the tab (optionaly can be set using css)
 		imageHeight:<?php echo '\'' . $height . 'px\''; ?>,   //height of tab image
 		imageWidth:<?php echo '\'' . $width . 'px\''; ?>,   //width of tab image   
 		tabLocation: <?php echo '\'' . $params->get('pozycja') . '\''; ?>,   //side of screen where tab lives, top, right, bottom, or left
